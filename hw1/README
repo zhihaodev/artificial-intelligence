@@ -1,0 +1,31 @@
+CS 600.435  Artificial Intelligence
+Homework 1: Search
+
+Zhihao Cao, zcao8@jhu.edu
+
+src/edu/jhu/cs435/hw1/GridWorld.java: 
+This class implements several search algorithms applied to grid worlds;
+src/edu/jhu/cs435/hw1/Node.java:
+This class represents a node on search tree graph;
+src/Makefile: scaffolding;
+compile.sh: scaffolding;
+run.sh: scaffolding;
+data/: map files representing different kinds of grid worlds;
+output/sample_output: the sample output of the program
+doc/writeup.pdf: writeup part of the assignment
+doc/: javadocs;
+
+For detail structure of the code, please refer to the javadocs.
+
+To build the program, cd to the top-level diretory(which you can see the compile.sh andrun.sh ), and do `./compile.sh`.
+To run the program, do './run.sh <path of the map file>'. Then you will be prompted to input a digit to choose one search algoithm applied to the grid world. 
+The output is the path from start point to goal, represented by coordinates of the nodes. Cost and nodes expended are also printed.
+
+Sample:
+./run.sh data/map1.txt
+Please input a DIGIT to choose a search algorithm (1: BFS 2: DFS 3: A* Search 4: IDDFS 5: Bidirectional Search):
+1
+path found:
+(1, 1) (1, 2) (1, 3) (1, 4) (1, 5) (1, 6) (1, 7) (1, 8) 
+total cost: 7
+total number of nodes expanded: 7

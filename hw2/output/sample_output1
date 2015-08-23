@@ -1,0 +1,595 @@
+Zhihao-MacBook-Air:untitled folder zhihao$ ./run.sh 
+java -cp ../bin edu.jhu.ben.cs335.hw2.Konane 
+Let's play Konane!
+Enter board size: 6
+Enter player type for Black (1=human, 2=minmax, 3=alphabeta): 2
+please input minimax type(1 = fixed depth bound, 2 = fixed time bound): 1
+Please input a maximum search depth: 4
+Enter player type for White (1=human, 2=minmax, 3=alphabeta): 3
+please input alphabeta type(1 = fixed depth bound, 2 = fixed time bound): 2
+Please input a maximum time in seconds: 3
+Please input move-ordering type (0 = naive move-ordering, 1 = heuristic move-ordering): 0
+
+===================
+Turn 0, black to play:
+---------------
+| b w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 0, legal moves (4): 
+(0, 0) -> (0, 0)
+(2, 2) -> (2, 2)
+(3, 3) -> (3, 3)
+(5, 5) -> (5, 5)
+Maximum depth reached from game start state: 4
+Nodes explored at this turn: 200
+Total nodes explored: 200
+Time to decide on a move: 0.022456284
+This player has played: (0, 0) -> (0, 0)
+
+Turn 1, white to play:
+---------------
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 1, legal moves (2): 
+(0, 1) -> (0, 1)
+(1, 0) -> (1, 0)
+Maximum depth reached at this turn: 13
+Maximum depth reached from game start state: 13
+Nodes explored at this turn: 318439
+Total nodes explored: 318439
+Time to decide on a move: 3.001
+This player has played: (0, 1) -> (0, 1)
+
+Turn 2, black to play:
+---------------
+| . . b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 2, legal moves (1): 
+(2, 0) -> (0, 0)
+Maximum depth reached from game start state: 8
+Nodes explored at this turn: 58
+Total nodes explored: 258
+Time to decide on a move: 0.001108933
+This player has played: (2, 0) -> (0, 0)
+
+Turn 3, white to play:
+---------------
+| b . b w b w |
+| . b w b w b |
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 3, legal moves (3): 
+(0, 3) -> (0, 1)
+(1, 2) -> (1, 0)
+(2, 1) -> (0, 1)
+Maximum depth reached at this turn: 12
+Maximum depth reached from game start state: 25
+Nodes explored at this turn: 416056
+Total nodes explored: 734495
+Time to decide on a move: 3.001
+This player has played: (0, 3) -> (0, 1)
+
+Turn 4, black to play:
+---------------
+| b w . . b w |
+| . b w b w b |
+| . w b w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 4, legal moves (4): 
+(0, 0) -> (0, 2)
+(2, 2) -> (0, 2)
+(2, 2) -> (2, 0)
+(4, 0) -> (2, 0)
+Maximum depth reached from game start state: 12
+Nodes explored at this turn: 731
+Total nodes explored: 989
+Time to decide on a move: 0.00732888
+This player has played: (2, 2) -> (0, 2)
+
+Turn 5, white to play:
+---------------
+| b w b . b w |
+| . b . b w b |
+| . w . w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 5, legal moves (5): 
+(0, 1) -> (0, 3)
+(0, 5) -> (0, 3)
+(1, 4) -> (1, 2)
+(1, 4) -> (1, 0)
+(2, 3) -> (0, 3)
+Maximum depth reached at this turn: 12
+Maximum depth reached from game start state: 37
+Nodes explored at this turn: 487634
+Total nodes explored: 1222129
+Time to decide on a move: 3.001
+This player has played: (0, 1) -> (0, 3)
+
+Turn 6, black to play:
+---------------
+| b . . w b w |
+| . b . b w b |
+| . w . w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 6, legal moves (5): 
+(0, 4) -> (0, 2)
+(2, 4) -> (2, 2)
+(2, 4) -> (2, 0)
+(4, 0) -> (2, 0)
+(4, 2) -> (2, 2)
+Maximum depth reached from game start state: 16
+Nodes explored at this turn: 1164
+Total nodes explored: 2153
+Time to decide on a move: 0.012784642
+This player has played: (0, 4) -> (0, 2)
+
+Turn 7, white to play:
+---------------
+| b . b . . w |
+| . b . b w b |
+| . w . w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 7, legal moves (4): 
+(1, 4) -> (1, 2)
+(1, 4) -> (1, 0)
+(2, 1) -> (0, 1)
+(2, 3) -> (0, 3)
+Maximum depth reached at this turn: 12
+Maximum depth reached from game start state: 49
+Nodes explored at this turn: 587746
+Total nodes explored: 1809875
+Time to decide on a move: 3.001
+This player has played: (2, 1) -> (0, 1)
+
+Turn 8, black to play:
+---------------
+| b w b . . w |
+| . . . b w b |
+| . . . w b w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 8, legal moves (4): 
+(2, 4) -> (0, 4)
+(2, 4) -> (2, 2)
+(4, 0) -> (2, 0)
+(4, 2) -> (2, 2)
+Maximum depth reached from game start state: 20
+Nodes explored at this turn: 777
+Total nodes explored: 2930
+Time to decide on a move: 0.00781706
+This player has played: (2, 4) -> (0, 4)
+
+Turn 9, white to play:
+---------------
+| b w b . b w |
+| . . . b . b |
+| . . . w . w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 9, legal moves (4): 
+(0, 1) -> (0, 3)
+(0, 5) -> (0, 3)
+(2, 3) -> (0, 3)
+(4, 1) -> (2, 1)
+Maximum depth reached at this turn: 13
+Maximum depth reached from game start state: 62
+Nodes explored at this turn: 851944
+Total nodes explored: 2661819
+Time to decide on a move: 3.001
+This player has played: (0, 5) -> (0, 3)
+
+Turn 10, black to play:
+---------------
+| b w b w . . |
+| . . . b . b |
+| . . . w . w |
+| w b w b w b |
+| b w b w b w |
+| w b w b w b |
+---------------
+Turn 10, legal moves (4): 
+(0, 2) -> (0, 4)
+(4, 0) -> (2, 0)
+(4, 2) -> (2, 2)
+(4, 4) -> (2, 4)
+Maximum depth reached from game start state: 24
+Nodes explored at this turn: 528
+Total nodes explored: 3458
+Time to decide on a move: 0.004027962
+This player has played: (4, 2) -> (2, 2)
+
+Turn 11, white to play:
+---------------
+| b w b w . . |
+| . . . b . b |
+| . . b w . w |
+| w b . b w b |
+| b w . w b w |
+| w b w b w b |
+---------------
+Turn 11, legal moves (5): 
+(2, 3) -> (2, 1)
+(2, 5) -> (0, 5)
+(3, 0) -> (3, 2)
+(3, 4) -> (3, 2)
+(4, 1) -> (2, 1)
+Maximum depth reached at this turn: 12
+Maximum depth reached from game start state: 74
+Nodes explored at this turn: 983219
+Total nodes explored: 3645038
+Time to decide on a move: 3.001
+This player has played: (2, 5) -> (0, 5)
+
+Turn 12, black to play:
+---------------
+| b w b w . w |
+| . . . b . . |
+| . . b w . . |
+| w b . b w b |
+| b w . w b w |
+| w b w b w b |
+---------------
+Turn 12, legal moves (6): 
+(0, 2) -> (0, 4)
+(2, 2) -> (2, 4)
+(4, 0) -> (2, 0)
+(4, 0) -> (4, 2)
+(4, 4) -> (2, 4)
+(4, 4) -> (4, 2)
+Maximum depth reached from game start state: 28
+Nodes explored at this turn: 1631
+Total nodes explored: 5089
+Time to decide on a move: 0.011566604
+This player has played: (0, 2) -> (0, 4)
+
+Turn 13, white to play:
+---------------
+| b w . . b w |
+| . . . b . . |
+| . . b w . . |
+| w b . b w b |
+| b w . w b w |
+| w b w b w b |
+---------------
+Turn 13, legal moves (7): 
+(0, 5) -> (0, 3)
+(2, 3) -> (0, 3)
+(2, 3) -> (2, 1)
+(3, 0) -> (3, 2)
+(3, 4) -> (3, 2)
+(4, 1) -> (2, 1)
+(4, 5) -> (2, 5)
+Maximum depth reached at this turn: 13
+Maximum depth reached from game start state: 87
+Nodes explored at this turn: 1510352
+Total nodes explored: 5155390
+Time to decide on a move: 3.001
+This player has played: (2, 3) -> (0, 3)
+
+Turn 14, black to play:
+---------------
+| b w . w b w |
+| . . . . . . |
+| . . b . . . |
+| w b . b w b |
+| b w . w b w |
+| w b w b w b |
+---------------
+Turn 14, legal moves (6): 
+(0, 0) -> (0, 2)
+(0, 4) -> (0, 2)
+(4, 0) -> (2, 0)
+(4, 0) -> (4, 2)
+(4, 4) -> (2, 4)
+(4, 4) -> (4, 2)
+Maximum depth reached from game start state: 32
+Nodes explored at this turn: 1178
+Total nodes explored: 6267
+Time to decide on a move: 0.005289943
+This player has played: (0, 4) -> (0, 2)
+
+Turn 15, white to play:
+---------------
+| b w b . . w |
+| . . . . . . |
+| . . b . . . |
+| w b . b w b |
+| b w . w b w |
+| w b w b w b |
+---------------
+Turn 15, legal moves (6): 
+(0, 1) -> (0, 3)
+(3, 0) -> (3, 2)
+(3, 4) -> (3, 2)
+(4, 1) -> (2, 1)
+(4, 3) -> (2, 3)
+(4, 5) -> (2, 5)
+Maximum depth reached at this turn: 14
+Maximum depth reached from game start state: 101
+Nodes explored at this turn: 382462
+Total nodes explored: 5537852
+Time to decide on a move: 0.473
+This player has played: (0, 1) -> (0, 3)
+
+Turn 16, black to play:
+---------------
+| b . . w . w |
+| . . . . . . |
+| . . b . . . |
+| w b . b w b |
+| b w . w b w |
+| w b w b w b |
+---------------
+Turn 16, legal moves (4): 
+(4, 0) -> (2, 0)
+(4, 0) -> (4, 2)
+(4, 4) -> (2, 4)
+(4, 4) -> (4, 2)
+Maximum depth reached from game start state: 36
+Nodes explored at this turn: 418
+Total nodes explored: 6685
+Time to decide on a move: 0.002740506
+This player has played: (4, 4) -> (4, 2)
+
+Turn 17, white to play:
+---------------
+| b . . w . w |
+| . . . . . . |
+| . . b . . . |
+| w b . b w b |
+| b w b . . w |
+| w b w b w b |
+---------------
+Turn 17, legal moves (7): 
+(3, 0) -> (3, 2)
+(3, 4) -> (3, 2)
+(4, 1) -> (2, 1)
+(4, 1) -> (4, 3)
+(4, 5) -> (2, 5)
+(5, 2) -> (3, 2)
+(5, 2) -> (1, 2)
+Maximum depth reached at this turn: 13
+Maximum depth reached from game start state: 114
+Nodes explored at this turn: 30102
+Total nodes explored: 5567954
+Time to decide on a move: 0.038
+This player has played: (3, 0) -> (3, 2)
+
+Turn 18, black to play:
+---------------
+| b . . w . w |
+| . . . . . . |
+| . . b . . . |
+| . . w b w b |
+| b w b . . w |
+| w b w b w b |
+---------------
+Turn 18, legal moves (2): 
+(3, 3) -> (3, 1)
+(5, 1) -> (3, 1)
+Maximum depth reached from game start state: 40
+Nodes explored at this turn: 110
+Total nodes explored: 6795
+Time to decide on a move: 0.001275847
+This player has played: (5, 1) -> (3, 1)
+
+Turn 19, white to play:
+---------------
+| b . . w . w |
+| . . . . . . |
+| . . b . . . |
+| . b w b w b |
+| b . b . . w |
+| w . w b w b |
+---------------
+Turn 19, legal moves (4): 
+(3, 2) -> (1, 2)
+(3, 2) -> (3, 0)
+(4, 5) -> (2, 5)
+(5, 0) -> (3, 0)
+Maximum depth reached at this turn: 11
+Maximum depth reached from game start state: 125
+Nodes explored at this turn: 2881
+Total nodes explored: 5570835
+Time to decide on a move: 0.005
+This player has played: (3, 2) -> (1, 2)
+
+Turn 20, black to play:
+---------------
+| b . . w . w |
+| . . w . . . |
+| . . . . . . |
+| . b . b w b |
+| b . b . . w |
+| w . w b w b |
+---------------
+Turn 20, legal moves (1): 
+(5, 3) -> (5, 1)
+Maximum depth reached from game start state: 44
+Nodes explored at this turn: 58
+Total nodes explored: 6853
+Time to decide on a move: 2.70113E-4
+This player has played: (5, 3) -> (5, 1)
+
+Turn 21, white to play:
+---------------
+| b . . w . w |
+| . . w . . . |
+| . . . . . . |
+| . b . b w b |
+| b . b . . w |
+| w b . . w b |
+---------------
+Turn 21, legal moves (5): 
+(3, 4) -> (3, 2)
+(3, 4) -> (3, 0)
+(4, 5) -> (2, 5)
+(5, 0) -> (3, 0)
+(5, 0) -> (5, 2)
+Maximum depth reached at this turn: 9
+Maximum depth reached from game start state: 134
+Nodes explored at this turn: 1001
+Total nodes explored: 5571836
+Time to decide on a move: 0.001
+This player has played: (3, 4) -> (3, 2)
+
+Turn 22, black to play:
+---------------
+| b . . w . w |
+| . . w . . . |
+| . . . . . . |
+| . b w . . b |
+| b . b . . w |
+| w b . . w b |
+---------------
+Turn 22, legal moves (4): 
+(3, 1) -> (3, 3)
+(4, 2) -> (2, 2)
+(4, 2) -> (0, 2)
+(5, 5) -> (5, 3)
+Maximum depth reached from game start state: 48
+Nodes explored at this turn: 172
+Total nodes explored: 7025
+Time to decide on a move: 5.31936E-4
+This player has played: (4, 2) -> (0, 2)
+
+Turn 23, white to play:
+---------------
+| b . b w . w |
+| . . . . . . |
+| . . . . . . |
+| . b . . . b |
+| b . . . . w |
+| w b . . w b |
+---------------
+Turn 23, legal moves (4): 
+(0, 3) -> (0, 1)
+(4, 5) -> (2, 5)
+(5, 0) -> (3, 0)
+(5, 0) -> (5, 2)
+Maximum depth reached at this turn: 6
+Maximum depth reached from game start state: 140
+Nodes explored at this turn: 195
+Total nodes explored: 5572031
+Time to decide on a move: 0.0
+This player has played: (0, 3) -> (0, 1)
+
+Turn 24, black to play:
+---------------
+| b w . . . w |
+| . . . . . . |
+| . . . . . . |
+| . b . . . b |
+| b . . . . w |
+| w b . . w b |
+---------------
+Turn 24, legal moves (2): 
+(0, 0) -> (0, 2)
+(5, 5) -> (5, 3)
+Maximum depth reached from game start state: 52
+Nodes explored at this turn: 40
+Total nodes explored: 7065
+Time to decide on a move: 1.03531E-4
+This player has played: (0, 0) -> (0, 2)
+
+Turn 25, white to play:
+---------------
+| . . b . . w |
+| . . . . . . |
+| . . . . . . |
+| . b . . . b |
+| b . . . . w |
+| w b . . w b |
+---------------
+Turn 25, legal moves (3): 
+(4, 5) -> (2, 5)
+(5, 0) -> (3, 0)
+(5, 0) -> (5, 2)
+Maximum depth reached at this turn: 4
+Maximum depth reached from game start state: 144
+Nodes explored at this turn: 39
+Total nodes explored: 5572070
+Time to decide on a move: 0.0
+This player has played: (4, 5) -> (2, 5)
+
+Turn 26, black to play:
+---------------
+| . . b . . w |
+| . . . . . . |
+| . . . . . w |
+| . b . . . . |
+| b . . . . . |
+| w b . . w b |
+---------------
+Turn 26, legal moves (1): 
+(5, 5) -> (5, 3)
+Maximum depth reached from game start state: 55
+Nodes explored at this turn: 5
+Total nodes explored: 7070
+Time to decide on a move: 1.4061E-5
+This player has played: (5, 5) -> (5, 3)
+
+Turn 27, white to play:
+---------------
+| . . b . . w |
+| . . . . . . |
+| . . . . . w |
+| . b . . . . |
+| b . . . . . |
+| w b . b . . |
+---------------
+Turn 27, legal moves (3): 
+(5, 0) -> (3, 0)
+(5, 0) -> (5, 2)
+(5, 0) -> (5, 4)
+Maximum depth reached at this turn: 2
+Maximum depth reached from game start state: 146
+Nodes explored at this turn: 7
+Total nodes explored: 5572077
+Time to decide on a move: 0.0
+This player has played: (5, 0) -> (3, 0)
+
+Game over!  Final board state:
+---------------
+| . . b . . w |
+| . . . . . . |
+| . . . . . w |
+| w b . . . . |
+| . . . . . . |
+| . b . b . . |
+---------------
+Game won by White after 28 turns

@@ -1,0 +1,28 @@
+[zcao8@ugrad10 hw1]$ ./run.sh data/map1.txt
+Please input a DIGIT to choose a search algorithm (1: BFS 2: DFS 3: A* Search 4: IDDFS 5: Bidirectional Search):
+1
+path found:
+(1, 1) (1, 2) (1, 3) (1, 4) (1, 5) (1, 6) (1, 7) (1, 8) 
+total cost: 7
+total number of nodes expanded: 7
+
+
+[zcao8@ugrad10 hw1]$ ./run.sh data/map5.txt
+Please input a DIGIT to choose a search algorithm (1: BFS 2: DFS 3: A* Search 4: IDDFS 5: Bidirectional Search):
+3
+path found:
+(1, 1) (1, 2) (1, 3) (1, 4) (2, 4) (3, 4) (4, 4) (5, 4) (6, 4) (7, 4) (7, 5) 
+(8, 5) (8, 6) (8, 7) (7, 7) 
+total cost: 15
+total number of nodes expanded: 46
+
+
+[zcao8@ugrad10 hw1]$ ./run.sh data/map4.txt
+Please input a DIGIT to choose a search algorithm (1: BFS 2: DFS 3: A* Search 4: IDDFS 5: Bidirectional Search):
+5               
+path found:
+(1, 1) (1, 2) (1, 3) (1, 4) (2, 4) (3, 4) (4, 4) (4, 3) (4, 2) (4, 1) (5, 1) 
+(6, 1) (7, 1) (7, 2) (7, 3) (7, 4) (7, 5) (7, 6) (8, 6) (9, 6) (9, 7) (9, 8) 
+(9, 9) 
+total cost: 22
+total number of nodes expanded: 39

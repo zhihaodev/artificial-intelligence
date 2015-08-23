@@ -1,0 +1,38 @@
+CS 600.435  Artificial Intelligence
+Homework 2: Game Play
+
+
+Zhihao Cao, zcao8@jhu.edu
+
+
+
+new files included compared with original scaffolding files:
+
+src/edu/jhu/ben/cs335/hw2/Node.java:
+This class represents a node in Minimax graph; each Node has one Board object
+
+src/edu/jhu/ben/cs335/hw2/players/MinimaxPlayer.java:
+Player with depth-bound standard Minimax algorithm
+
+src/edu/jhu/ben/cs335/hw2/players/AlphaBetaPlayer.java:
+Player with depth-bound AlphaBeta algorithm
+
+src/edu/jhu/ben/cs335/hw2/players/TimeBoundedIterativeDeepeningAlphaBetaPlayer:
+Player with time-bound iterative deepening AlphaBeta algorithm
+
+src/edu/jhu/ben/cs335/hw2/players/TimeBoundedIterativeDeepeningMiniMaxPlayer.java:
+Player with time-bound iterative deepening Minimax algorithm
+
+output/: the sample outputs of the program
+
+doc/writeup.pdf: writeup part of the assignment
+
+doc/writeup.latex: latex file of the writeup
+
+doc/: javadocs;
+
+
+For detail structure of the code, please refer to the javadocs.
+
+To build the program, cd to the top-level diretory(which you can see the compile.sh andrun.sh ), and do `./compile.sh`.
+To run the program, do './run.sh'.
